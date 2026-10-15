@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO Primario y Metadatos de Autor -->
+  <title>Carlos Hernández | Desarrollador de Software & Proyectos TI (Yucatán, México)</title>
+  <meta name="description" content="Portafolio profesional de Carlos Hernández. Desarrollador de Software y Analista de Sistemas en Yucatán, México. Especializado en PHP, Laravel, CodeIgniter, MySQL, MariaDB, SQL Server, APIs REST y JavaScript.">
+  <meta name="author" content="Carlos Hernández">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://charlestonehdz.github.io/">
+
+  <!-- Open Graph / Redes Sociales y Compartición -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://charlestonehdz.github.io/">
+  <meta property="og:title" content="Carlos Hernández | Desarrollador de Software & Proyectos TI">
+  <meta property="og:description" content="Desarrollo soluciones que puedes explorar. Aplicaciones web corporativas, integraciones de bases de datos y herramientas operativas.">
+  <meta property="og:image" content="assets/images/carlos-hernandez.jpg">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Carlos Hernández | Portafolio Profesional">
+  <meta name="twitter:description" content="Desarrollador de Software y Analista de Sistemas en Yucatán, México. Especialista en PHP, APIs REST, SQL y JavaScript.">
+  <meta name="twitter:image" content="assets/images/carlos-hernandez.jpg">
+
+  <!-- Marcado Estructurado JSON-LD (Schema.org) para Indexación por Motores de Búsqueda -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Carlos Hernández",
+    "jobTitle": "Desarrollador de Software y Especialista en Proyectos TI",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Yucatán",
+      "addressCountry": "México"
+    },
+    "email": "charlestonehdz@gmail.com",
+    "sameAs": [
+      "https://www.linkedin.com/in/carlos-a-hernandezt"
+    ],
+    "knowsAbout": [
+      "PHP", "Laravel", "CodeIgniter", "MySQL", "MariaDB",
+      "SQL Server", "APIs REST", "JavaScript", "Linux", "Git"
+    ]
+  }
+  </script>
+
+  <!-- Hojas de Estilo del Portafolio -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/hero-simulator.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ========================================================
+       CABECERA Y NAVEGACIÓN FIJA
+       ======================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container nav-container">
+      <a href="#inicio" class="brand-logo" aria-label="Carlos Hernández - Inicio">
+        <span class="brand-symbol">//</span>
+        <span>CARLOS HERNÁNDEZ</span>
+        <span class="brand-tag">| TI</span>
+      </a>
+
+      <!-- Menú principal de navegación -->
+      <nav class="nav-menu" role="navigation" aria-label="Menú principal">
+        <a href="#inicio" class="nav-link active">Inicio</a>
+        <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+        <a href="#experiencia" class="nav-link">Experiencia</a>
+        <a href="#proyectos" class="nav-link">Proyectos</a>
+        <a href="#tecnologias" class="nav-link">Tecnologías</a>
+        <a href="#blog" class="nav-link">Blog</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+        <a href="#contacto" class="nav-cta-btn">Contactar</a>
+      </nav>
+
+      <!-- Botón móvil accesible -->
+      <button class="mobile-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" type="button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Indicador Lateral Flotante de Secciones (Dots Interactivos) -->
+  <nav class="section-nav-dots" aria-label="Navegación de secciones">
+    <button type="button" class="section-nav-dot active" data-section="inicio" aria-label="Ir a sección Inicio"><span class="dot-tooltip">Inicio</span></button>
+    <button type="button" class="section-nav-dot" data-section="sobre-mi" aria-label="Ir a sección Sobre mí"><span class="dot-tooltip">Sobre mí</span></button>
+    <button type="button" class="section-nav-dot" data-section="experiencia" aria-label="Ir a sección Experiencia"><span class="dot-tooltip">Experiencia</span></button>
+    <button type="button" class="section-nav-dot" data-section="proyectos" aria-label="Ir a sección Proyectos"><span class="dot-tooltip">Proyectos</span></button>
+    <button type="button" class="section-nav-dot" data-section="tecnologias" aria-label="Ir a sección Tecnologías"><span class="dot-tooltip">Tecnologías</span></button>
+    <button type="button" class="section-nav-dot" data-section="blog" aria-label="Ir a sección Blog"><span class="dot-tooltip">Blog</span></button>
+    <button type="button" class="section-nav-dot" data-section="contacto" aria-label="Ir a sección Contacto"><span class="dot-tooltip">Contacto</span></button>
+  </nav>
+
+  <!-- ========================================================
+       CONTENIDO PRINCIPAL
+       ======================================================== -->
+  <main role="main">
+
+    <!-- HERO SECTION: PANTALLA COMPLETA CON ANIMACIÓN EN BUCLE DE FONDO -->
+    <section id="inicio" class="hero-section" aria-label="Presentación Profesional e Ingeniería de Software">
+      
+      <!-- CAPA DE FONDO: ANIMACIÓN EN BUCLE A PANTALLA COMPLETA (6-9s) -->
+      <div id="demostracion" class="hero-fullscreen-bg" aria-hidden="true">
+        <div class="hero-split-canvas">
+          
+          <!-- Media Pantalla Izquierda: Código Escribiéndose -->
+          <div class="bg-code-panel">
+            <div class="bg-code-body">
+              <div id="mon-gutter" class="bg-code-gutter">
+                <span>1</span>
+              </div>
+              <div id="mon-code-text" class="bg-code-text"></div>
+            </div>
+          </div>
+
+          <!-- Media Pantalla Derecha: Página Web Editándose en Vivo -->
+          <div class="bg-web-panel">
+            <div class="bg-web-body">
+              <!-- Navbar de la web -->
+              <div id="mock-web-nav" class="bg-mock-nav">
+                <span class="bg-mock-logo">// SistemaTI</span>
+                <span class="bg-mock-chip">● ACTIVO</span>
+              </div>
+
+              <!-- Tarjeta KPI reactiva -->
+              <div id="mock-web-card" class="bg-mock-kpi">
+                <div class="bg-kpi-header">
+                  <span>Módulo de Control Operativo</span>
+                  <span style="color:var(--accent-cyan); font-family:var(--font-mono);">PING: 12ms</span>
+                </div>
+                <div class="bg-kpi-val">99.4% Eficiencia</div>
+                <div class="bg-kpi-progress">
+                  <div id="mock-web-bar" class="bg-kpi-progress-bar"></div>
+                </div>
+              </div>
+
+              <!-- Acciones interactivas -->
+              <div id="mock-web-btn-box" class="bg-mock-actions">
+                <div id="mock-web-btn" class="bg-mock-action-btn">
+                  <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                  <span>Sincronizar Datos</span>
+                </div>
+                <div id="mock-web-toast" class="bg-mock-toast">
+                  <span>✓ Datos listos y actualizados</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Barra inferior del bucle de 8 segundos -->
+        <div class="hero-loop-timeline">
+          <div id="mon-timeline-fill" class="hero-loop-fill"></div>
+        </div>
+      </div>
+
+      <!-- CAPA DE DEGRADADO (OVERLAY) PARA CONTRASTE ELEGANTE -->
+      <div class="hero-cinema-overlay" aria-hidden="true"></div>
+
+      <!-- CONTENIDO PRINCIPAL: CARLOS HERNÁNDEZ AL FRENTE -->
+      <div class="container hero-foreground-content">
+        <div class="hero-glass-card">
+
+          <h1 class="hero-title-name">Carlos Hernández</h1>
+          <p class="hero-specialty">Desarrollador de Software | Análisis de Sistemas | Proyectos TI</p>
+
+          <div class="hero-lead-box">
+            <p class="hero-lead-main">«Desarrollo soluciones que puedes explorar.»</p>
+            <p class="hero-lead-sub">Transformo necesidades y procesos en aplicaciones web, integraciones y herramientas que facilitan la operación de los negocios.</p>
+          </div>
+
+          <!-- Acciones Principales (CTAs) -->
+          <div class="hero-cta-actions">
+            <a href="#proyectos" class="btn-primary">
+              <span>Explorar proyectos</span>
+              <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
+            </a>
+            <a href="#contacto" class="btn-secondary">
+              <span>Contactar</span>
+              <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/carlos-a-hernandezt" target="_blank" rel="noopener noreferrer" class="btn-social" aria-label="Perfil de LinkedIn de Carlos Hernández">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================
+         SECCIÓN SOBRE MÍ
+         ======================================================== -->
+    <section id="sobre-mi" class="content-section" aria-labelledby="title-sobre-mi">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-pretitle">// 01. PERFIL PROFESIONAL</span>
+          <h2 id="title-sobre-mi" class="section-title">Sobre mí</h2>
+          <p class="section-description">Compromiso con el análisis riguroso de procesos y el desarrollo de arquitecturas de software robustas y escalables.</p>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-text-content">
+            <p>
+              Soy <strong>Carlos Hernández</strong>, desarrollador de software y profesional de proyectos TI en <strong>Yucatán, México</strong>, enfocado en el desarrollo de aplicaciones web y optimización de sistemas.
+            </p>
+            <p>
+              Mi enfoque técnico se basa en la convicción de que el código más eficiente es aquel que nace de un entendimiento profundo del negocio. No desarrollo pantallas aisladas: diseño <strong>sistemas integrados</strong> que optimizan tiempos operativos, garantizan la integridad de los datos y ofrecen interfaces administrativas claras y predecibles.
+            </p>
+            <p>
+              Cuento con experiencia en el ecosistema <strong>PHP (CodeIgniter y Laravel)</strong>, modelado relacional en <strong>MySQL, MariaDB y SQL Server</strong>, consumo y construcción de <strong>APIs REST</strong>, además de interfaces interactivas con <strong>JavaScript vanilla y Bootstrap</strong> bajo entornos <strong>Linux</strong> y control de versiones riguroso con <strong>Git</strong>.
+            </p>
+          </div>
+
+          <div class="mobile-swipe-hint"><span>Desliza para ver más áreas ⟷</span></div>
+          <div class="about-focus-cards">
+            <div class="focus-card">
+              <div class="focus-card-header">
+                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                <h3 class="focus-card-title">Análisis de Sistemas</h3>
+              </div>
+              <p class="focus-card-desc">Levantamiento estructurado de requerimientos, diseño de flujos de trabajo e identificación temprana de reglas de negocio críticas.</p>
+            </div>
+
+            <div class="focus-card">
+              <div class="focus-card-header">
+                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path></svg>
+                <h3 class="focus-card-title">Arquitectura Backend & Datos</h3>
+              </div>
+              <p class="focus-card-desc">Construcción de capas de servicio desacopladas, normalización de esquemas relacionales e integración de endpoints RESTful seguros.</p>
+            </div>
+
+            <div class="focus-card">
+              <div class="focus-card-header">
+                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                <h3 class="focus-card-title">Gestión de Proyectos TI</h3>
+              </div>
+              <p class="focus-card-desc">Seguimiento ordenado de entregables, control de versiones colaborativo y despliegue continuo en servidores Linux.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECCIÓN EXPERIENCIA Y ENFOQUE TÉCNICO
+         ======================================================== -->
+    <section id="experiencia" class="content-section" aria-labelledby="title-experiencia">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-pretitle">// 02. TRAYECTORIA Y CAPACIDADES</span>
+          <h2 id="title-experiencia" class="section-title">Experiencia y Enfoque Técnico</h2>
+          <p class="section-description">Áreas de especialidad técnica aplicadas en el ciclo completo de vida del software y soluciones empresariales.</p>
+        </header>
+
+        <div class="mobile-swipe-hint"><span>Desliza para explorar experiencias (1 de 3) ⟷</span></div>
+        <div class="experience-timeline">
+          
+          <!-- Bloque 1: Backend & APIs -->
+          <!-- EDITAR: Puedes agregar la empresa o cargo específico en este bloque cuando lo desees -->
+          <article class="experience-card">
+            <div class="exp-top-row">
+              <h3 class="exp-role-title">Desarrollo Backend & Integración de Servicios Web</h3>
+              <span class="exp-tag-area">Backend & Arquitectura</span>
+            </div>
+            <p class="exp-summary">
+              Diseño, refactorización y mantenimiento de plataformas web empresariales utilizando frameworks basados en PHP. Enfoque prioritario en seguridad de endpoints, validación de transacciones y reducción de deuda técnica.
+            </p>
+            <ul class="exp-deliverables">
+              <li>Implementación de arquitecturas MVC limpias con CodeIgniter y Laravel para agilizar el procesamiento interno de datos.</li>
+              <li>Desarrollo y consumo de APIs RESTful con formatos JSON estandarizados para comunicación con sistemas externos.</li>
+              <li>Autenticación basada en sesiones y tokens para la protección de módulos administrativos críticos.</li>
+            </ul>
+            <div class="exp-skills-chips">
+              <span class="exp-chip">PHP</span>
+              <span class="exp-chip">Laravel</span>
+              <span class="exp-chip">CodeIgniter</span>
+              <span class="exp-chip">APIs REST</span>
+              <span class="exp-chip">JSON</span>
+            </div>
+          </article>
+
+          <!-- Bloque 2: Bases de Datos Relacionales -->
+          <!-- EDITAR: Puedes agregar la empresa o cargo específico en este bloque cuando lo desees -->
+          <article class="experience-card">
+            <div class="exp-top-row">
+              <h3 class="exp-role-title">Modelado, Consultas y Optimización de Datos</h3>
+              <span class="exp-tag-area">Bases de Datos</span>
+            </div>
+            <p class="exp-summary">
+              Estructuración de bases de datos relacionales orientadas al soporte de operaciones comerciales recurrentes, asegurando integridad referencial y alta disponibilidad de información.
+            </p>
+            <ul class="exp-deliverables">
+              <li>Diseño de diagramas E-R normalizados y consultas optimizadas mediante índices en MySQL, MariaDB y SQL Server.</li>
+              <li>Generación de reportes tabulares y vistas complejas para la toma de decisiones gerenciales.</li>
+              <li>Mantenimiento de copias de seguridad periódicas y procedimientos de migración entre entornos.</li>
+            </ul>
+            <div class="exp-skills-chips">
+              <span class="exp-chip">MySQL</span>
+              <span class="exp-chip">MariaDB</span>
+              <span class="exp-chip">SQL Server</span>
+              <span class="exp-chip">Consultas Complejas</span>
+              <span class="exp-chip">Índices</span>
+            </div>
+          </article>
+
+          <!-- Bloque 3: Frontend & Entornos -->
+          <!-- EDITAR: Puedes agregar la empresa o cargo específico en este bloque cuando lo desees -->
+          <article class="experience-card">
+            <div class="exp-top-row">
+              <h3 class="exp-role-title">Interfaces Funcionales y Entornos de Ejecución</h3>
+              <span class="exp-tag-area">Frontend & Infraestructura</span>
+            </div>
+            <p class="exp-summary">
+              Construcción de módulos frontend ágiles, accesibles y responsivos para usuarios operativos, combinados con una sólida administración de entornos de desarrollo y versionado.
+            </p>
+            <ul class="exp-deliverables">
+              <li>Creación de paneles administrativos intuitivos con HTML5 semántico, CSS3 estructurado, Bootstrap y JavaScript vanilla sin dependencias innecesarias.</li>
+              <li>Gestión de ramas, fusiones y despliegues colaborativos con Git.</li>
+              <li>Configuración y mantenimiento de servicios en servidores bajo distribuciones Linux (Ubuntu/Debian, CentOS/AlmaLinux).</li>
+            </ul>
+            <div class="exp-skills-chips">
+              <span class="exp-chip">JavaScript</span>
+              <span class="exp-chip">HTML5 / CSS3</span>
+              <span class="exp-chip">Bootstrap</span>
+              <span class="exp-chip">Git</span>
+              <span class="exp-chip">Linux</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECCIÓN PROYECTOS TÉCNICOS
+         ======================================================== -->
+    <section id="proyectos" class="content-section" aria-labelledby="title-proyectos">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-pretitle">// 03. CASOS DE APLICACIÓN</span>
+          <h2 id="title-proyectos" class="section-title">Proyectos Técnicos</h2>
+          <p class="section-description">Módulos representativos diseñados para resolver problemáticas operativas específicas mediante tecnología web.</p>
+        </header>
+
+        <div class="mobile-swipe-hint"><span>Desliza para explorar proyectos (1 de 3) ⟷</span></div>
+        <div class="projects-grid">
+          
+          <!-- Proyecto 1 (Plantilla identificada) -->
+          <article class="project-card">
+            <div>
+              <span class="project-status-badge">
+                <span class="sim-badge-pulse" style="background:#F59E0B"></span>
+                [Plantilla / En Desarrollo]
+              </span>
+              <h3 class="project-card-title">Portal de Gestión de Órdenes e Inventario</h3>
+              <p class="project-problem-text">
+                Plataforma web para el control de inventario multialmacén, registro de entradas y salidas de mercancía, y sincronización de órdenes de clientes con emisión de comprobantes en tiempo real.
+              </p>
+            </div>
+            <div>
+              <div class="project-tech-stack">
+                <span class="project-tech-pill">PHP / Laravel</span>
+                <span class="project-tech-pill">MySQL</span>
+                <span class="project-tech-pill">Bootstrap</span>
+                <span class="project-tech-pill">APIs REST</span>
+              </div>
+              <div class="project-links-row">
+                <span class="project-link-action" title="Enlace configurable cuando se vincule el repositorio">
+                  <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                  <span>Código (Pendiente)</span>
+                </span>
+                <span class="project-link-action" title="Demostración configurable">
+                  <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                  <span>Demo (Próximamente)</span>
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 2 (Plantilla identificada) -->
+          <article class="project-card">
+            <div>
+              <span class="project-status-badge">
+                <span class="sim-badge-pulse" style="background:#F59E0B"></span>
+                [Plantilla / En Desarrollo]
+              </span>
+              <h3 class="project-card-title">Módulo de Integración y Sincronización REST</h3>
+              <p class="project-problem-text">
+                Servicio intermediario para la extracción y homologación de catálogos y transacciones entre sistemas legacy y plataformas en la nube, con bitácora de auditoría y reintentos automatizados.
+              </p>
+            </div>
+            <div>
+              <div class="project-tech-stack">
+                <span class="project-tech-pill">CodeIgniter</span>
+                <span class="project-tech-pill">MariaDB</span>
+                <span class="project-tech-pill">RESTful API</span>
+                <span class="project-tech-pill">Linux Cron</span>
+              </div>
+              <div class="project-links-row">
+                <span class="project-link-action" title="Enlace configurable cuando se vincule el repositorio">
+                  <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                  <span>Código (Pendiente)</span>
+                </span>
+                <span class="project-link-action" title="Demostración configurable">
+                  <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                  <span>Demo (Próximamente)</span>
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 3 (Plantilla identificada) -->
+          <article class="project-card">
+            <div>
+              <span class="project-status-badge">
+                <span class="sim-badge-pulse" style="background:#F59E0B"></span>
+                [Plantilla / En Desarrollo]
+              </span>
+              <h3 class="project-card-title">Motor de Reportes y Auditoría Transaccional</h3>
+              <p class="project-problem-text">
+                Dashboard administrativo para la consulta filtrada de operaciones financieras internas, cálculo de indicadores de rendimiento y exportación de bitácoras de auditoría en formatos estándar.
+              </p>
+            </div>
+            <div>
+              <div class="project-tech-stack">
+                <span class="project-tech-pill">SQL Server</span>
+                <span class="project-tech-pill">JavaScript ES6</span>
+                <span class="project-tech-pill">HTML5 / CSS3</span>
+                <span class="project-tech-pill">Git</span>
+              </div>
+              <div class="project-links-row">
+                <span class="project-link-action" title="Enlace configurable cuando se vincule el repositorio">
+                  <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                  <span>Código (Pendiente)</span>
+                </span>
+                <span class="project-link-action" title="Demostración configurable">
+                  <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                  <span>Demo (Próximamente)</span>
+                </span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECCIÓN STACK TECNOLÓGICO
+         ======================================================== -->
+    <section id="tecnologias" class="content-section" aria-labelledby="title-tecnologias">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-pretitle">// 04. HERRAMIENTAS Y DOMINIO TÉCNICO</span>
+          <h2 id="title-tecnologias" class="section-title">Stack Tecnológico</h2>
+          <p class="section-description">Competencias técnicas organizadas por capa de arquitectura y aplicabilidad práctica.</p>
+        </header>
+
+        <div class="mobile-swipe-hint"><span>Desliza para explorar capas (1 de 5) ⟷</span></div>
+        <div class="tech-layers-grid">
+          
+          <!-- Capa 1: Backend -->
+          <div class="tech-layer-card">
+            <div class="layer-header">
+              <svg class="layer-icon" width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2"></path></svg>
+              <h3 class="layer-title">Backend & Servicios</h3>
+            </div>
+            <div class="layer-items-list">
+              <div class="layer-item">
+                <span class="layer-item-name">PHP</span>
+                <span class="layer-item-badge">Lenguaje Base</span>
+              </div>
+              <div class="layer-item">
+                <span class="layer-item-name">Laravel</span>
+                <span class="layer-item-badge">Framework MVC</span>
+              </div>
+              <div class="layer-item">
+                <span class="layer-item-name">CodeIgniter</span>
+                <span class="layer-item-badge">Framework Ligero</span>
+              </div>
+              <div class="layer-item">
+                <span class="layer-item-name">APIs REST</span>
+                <span class="layer-item-badge">Integración JSON</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Capa 2: Bases de Datos -->
+          <div class="tech-layer-card">
+            <div class="layer-header">
+              <svg class="layer-icon" width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+              <h3 class="layer-title">Bases de Datos</h3>
+            </div>
+            <div class="layer-items-list">
+              <div class="layer-item">
+                <span class="layer-item-name">MySQL</span>
+                <span class="layer-item-badge">RDBMS Principal</span>
+              </div>
+              <div class="layer-item">
+                <span class="layer-item-name">MariaDB</span>
+                <span class="layer-item-badge">RDBMS Open-Source</span>
+              </div>
+              <div class="layer-item">
+                <span class="layer-item-name">SQL Server</span>
+                <span class="layer-item-badge">RDBMS Corporativo</span>
+              </div>
+              <div class="layer-item">
+                <span class="layer-item-name">Modelado Relacional</span>
+                <span class="layer-item-badge">Normalización & Índices</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Capa 3: Frontend -->
+          <div class="tech-layer-card">
+            <div class="layer-header">
+              <svg class="layer-icon" width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+              <h3 class="layer-title">Frontend Web</h3>
+            </div>
+            <div class="layer-items-list">
+              <div class="layer-item">
+                <span class="layer-item-name">JavaScript (ES6+)</span>
+                <span class="layer-item-badge">Interactividad Nativa</span>
+              </div>
+              <div class="layer-item">
+                <span class="layer-item-name">HTML5 Semántico</span>
+                <span class="layer-item-badge">Estructura & SEO</span>
+              </div>
+              <div class="layer-item">
+                <span class="layer-item-name">CSS3 / Flexbox / Grid</span>
+                <span class="layer-item-badge">Estilos & Animaciones</span>
+              </div>
+              <div class="layer-item">
+                <span class="layer-item-name">Bootstrap</span>
+                <span class="layer-item-badge">Diseño UI Rápido</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Capa 4: Infraestructura y Herramientas -->
+          <div class="tech-layer-card">
+            <div class="layer-header">
+              <svg class="layer-icon" width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+              <h3 class="layer-title">Entornos & Control</h3>
+            </div>
+            <div class="layer-items-list">
+              <div class="layer-item">
+                <span class="layer-item-name">Git</span>
+                <span class="layer-item-badge">Control de Versiones</span>
+              </div>
+              <div class="layer-item">
+                <span class="layer-item-name">Linux</span>
+                <span class="layer-item-badge">Servidores & Bash</span>
+              </div>
+              <div class="layer-item">
+                <span class="layer-item-name">GitHub</span>
+                <span class="layer-item-badge">Repositorios & Pages</span>
+              </div>
+              <div class="layer-item">
+                <span class="layer-item-name">Apache / XAMPP</span>
+                <span class="layer-item-badge">Entorno Web Local</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECCIÓN BLOG / ARTÍCULOS TÉCNICOS
+         ======================================================== -->
+    <section id="blog" class="content-section" aria-labelledby="title-blog">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-pretitle">// 05. PUBLICACIONES & ANÁLISIS</span>
+          <h2 id="title-blog" class="section-title">Artículos Técnicos & Blog</h2>
+          <p class="section-description">Notas, aprendizajes y reflexiones sobre arquitectura de software, bases de datos y gestión de proyectos TI.</p>
+        </header>
+
+        <div class="mobile-swipe-hint"><span>Desliza para explorar artículos (1 de 3) ⟷</span></div>
+        <div class="blog-grid">
+          
+          <!-- Artículo 1 -->
+          <article class="blog-card">
+            <div>
+              <div class="blog-meta-row">
+                <span class="blog-tag">Análisis de Sistemas</span>
+                <span>Lectura: 4 min</span>
+              </div>
+              <h3 class="blog-card-title">Arquitectura de Software y Análisis de Sistemas: De Requerimientos Difusos a Soluciones Escalables</h3>
+              <p class="blog-card-excerpt">
+                Cómo traducir las necesidades operativas de una empresa en modelos de datos desacoplados y reglas de negocio robustas antes de escribir la primera línea de código.
+              </p>
+            </div>
+            <div>
+              <a href="#blog" class="blog-read-more" data-article="art-1">
+                <span>Leer artículo completo</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Artículo 2 -->
+          <article class="blog-card">
+            <div>
+              <div class="blog-meta-row">
+                <span class="blog-tag">Bases de Datos</span>
+                <span>Lectura: 5 min</span>
+              </div>
+              <h3 class="blog-card-title">Optimización de Consultas Relacionales en MySQL y MariaDB para Aplicaciones Web</h3>
+              <p class="blog-card-excerpt">
+                Estrategias prácticas de indexación compuesta, análisis del plan de ejecución con EXPLAIN y cómo evitar cuellos de botella en tablas con miles de registros.
+              </p>
+            </div>
+            <div>
+              <a href="#blog" class="blog-read-more" data-article="art-2">
+                <span>Leer artículo completo</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Artículo 3 -->
+          <article class="blog-card">
+            <div>
+              <div class="blog-meta-row">
+                <span class="blog-tag">APIs & Backend</span>
+                <span>Lectura: 4 min</span>
+              </div>
+              <h3 class="blog-card-title">Diseño Seguro y Mantenible de APIs REST Empresariales</h3>
+              <p class="blog-card-excerpt">
+                Estandarización de códigos de respuesta HTTP, manejo de payloads JSON limpios, autenticación y cómo garantizar la consistencia en integraciones heterogéneas.
+              </p>
+            </div>
+            <div>
+              <a href="#blog" class="blog-read-more" data-article="art-3">
+                <span>Leer artículo completo</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECCIÓN CONTACTO Y PIE DE PÁGINA (CON FOTO OFICIAL)
+         ======================================================== -->
+    <section id="contacto" class="contact-section" aria-labelledby="title-contacto">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-pretitle">// 06. COMUNICACIÓN DIRECTA</span>
+          <h2 id="title-contacto" class="section-title">Contacto Profesional</h2>
+          <p class="section-description">¿Tienes un proyecto en mente o buscas fortalecer tu equipo técnico? Conversemos sobre cómo estructurar la solución.</p>
+        </header>
+
+        <!-- Tarjeta de Perfil Profesional con Foto Adjunta -->
+        <div class="contact-card-box">
+          <div class="contact-layout">
+            
+            <!-- Fotografía de Carlos Hernández -->
+            <div class="profile-photo-wrapper">
+              <img 
+                src="assets/images/carlos-hernandez.jpg" 
+                alt="Carlos Hernández - Desarrollador de Software y Especialista en Proyectos TI"
+                class="profile-photo-img"
+                loading="lazy"
+                width="170"
+                height="170"
+              >
+              <span class="profile-online-badge" title="Disponible para colaborar" aria-label="Disponible para colaborar"></span>
+            </div>
+
+            <!-- Detalles y Vías de Contacto -->
+            <div class="contact-details">
+              <div>
+                <h3 class="contact-profile-name">Carlos Hernández</h3>
+                <div class="contact-profile-subtitle">Desarrollador de Software | Análisis de Sistemas | Proyectos TI</div>
+                <p class="contact-profile-bio">
+                  Enfocado en construir sistemas mantenibles, resolver requerimientos complejos de negocio y colaborar en proyectos con impacto operativo. En Yucatán, México, disponible para proyectos y colaboración técnica.
+                </p>
+              </div>
+
+              <!-- Canales Directos -->
+              <div class="contact-channels-grid">
+                
+                <!-- Correo Electrónico con botón de copiado rápido -->
+                <div class="contact-channel-item">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                  <a href="mailto:charlestonehdz@gmail.com" title="Enviar correo a Carlos Hernández">charlestonehdz@gmail.com</a>
+                  <button id="btn-copy-email" class="btn-copy-email" type="button" aria-label="Copiar correo al portapapeles">Copiar</button>
+                </div>
+
+                <!-- Perfil de LinkedIn -->
+                <a href="https://www.linkedin.com/in/carlos-a-hernandezt" target="_blank" rel="noopener noreferrer" class="contact-channel-item" title="Ver perfil de Carlos Hernández en LinkedIn">
+                  <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  <span>linkedin.com/in/carlos-a-hernandezt</span>
+                </a>
+
+                <!-- Ubicación -->
+                <div class="contact-channel-item">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                  <span>Yucatán, México</span>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Pie de página final -->
+        <footer class="site-footer" role="contentinfo">
+          <div>
+            &copy; <span id="current-year">2026</span> Carlos Hernández. Portafolio profesional de ingeniería de software.
+          </div>
+          <nav class="footer-nav" aria-label="Enlaces del pie de página">
+            <a href="#demostracion">Demostración</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#tecnologias">Tecnologías</a>
+            <a href="#blog">Blog</a>
+            <a href="sitemap.xml" target="_blank" rel="noopener">Sitemap XML</a>
+          </nav>
+        </footer>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================
+       MODAL DE LECTURA DE ARTÍCULOS DE BLOG
+       ======================================================== -->
+  <div id="blog-preview-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(7,13,24,0.85); backdrop-filter:blur(8px); z-index:2000; align-items:center; justify-content:center; padding:1.5rem;" role="dialog" aria-modal="true" aria-labelledby="modal-article-title">
+    <div style="background:var(--surface-card); border:1px solid var(--accent-border); border-radius:var(--radius-lg); max-width:720px; width:100%; max-height:85vh; overflow-y:auto; padding:2rem; box-shadow:var(--shadow-card); position:relative;">
+      <button id="modal-close-btn" style="position:absolute; top:1.25rem; right:1.25rem; background:rgba(255,255,255,0.05); border:1px solid var(--border-subtle); color:var(--text-primary); width:32px; height:32px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:1.1rem;" aria-label="Cerrar artículo">&times;</button>
+      <div id="modal-article-tag" style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); margin-bottom:0.6rem; text-transform:uppercase;"></div>
+      <h3 id="modal-article-title" style="font-size:1.45rem; font-weight:800; color:var(--text-primary); line-height:1.35; margin-bottom:1.5rem;"></h3>
+      <div id="modal-article-body" style="color:var(--text-secondary); font-size:0.98rem; line-height:1.8;"></div>
+    </div>
+  </div>
+
+  <!-- Scripts de la Pantalla Interactiva y Comportamiento Principal -->
+  <script src="js/hero-simulator.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
